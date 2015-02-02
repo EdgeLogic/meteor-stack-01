@@ -18,4 +18,6 @@ meteor remove autopublish
 meteor add meteorhacks:npm
 meteor add accounts-twitter
 meteor add mizzao:bootstrap-3
+meteor add iron:router
+
 # end of basic
