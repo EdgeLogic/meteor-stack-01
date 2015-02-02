@@ -1,0 +1,20 @@
+# This file is for human eyes to aid boostrapping the stack from scratch
+# Helpers:
+#   1) http://g00glen00b.be/meteor-twitter-streaming/
+
+# configuration specs
+# Meteorite version 0.9.2
+# Meteor 1.0.3.1
+
+# genesis
+meteor create meteor-stack-01
+cd meteor-stack-01
+
+# create directories for structured organization
+mkdir client server public private models help
+
+# secure server
+meteor remove autopublish
+meteor add meteorhacks:npm
+meteor add accounts-twitter
+
