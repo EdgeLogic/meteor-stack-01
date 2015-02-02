@@ -5,5 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
+meteorhacks:npm
+accounts-twitter
+
+
+npm-container
+mizzao:bootstrap-3

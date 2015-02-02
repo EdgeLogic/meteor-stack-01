@@ -17,4 +17,5 @@ mkdir client server public private models help
 meteor remove autopublish
 meteor add meteorhacks:npm
 meteor add accounts-twitter
-
+meteor add mizzao:bootstrap-3
+# end of basic
